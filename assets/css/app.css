@@ -1,0 +1,56 @@
+.task-title {
+    margin-bottom: 0 !important;
+}
+
+.btn-xs {
+    padding: 0.15rem 0.3rem;
+    font-size: .8rem;
+    border-radius: 0.3rem;
+}
+
+.tool-bar {
+    padding: 0.5rem 0.5rem;
+    height: 48px;
+}
+
+.list-group-item, .card {
+    border: 1px solid rgba(0, 0, 0, .225) !important;
+}
+
+.list-group-item:not(:last-child){
+    border-bottom: none !important;
+}
+
+.view-controls::after {
+    border-left: none !important;
+}
+
+.icon-btn {
+    cursor: pointer;
+}
+
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: #6c757d;
+    font-size: 60%;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: rgba(0, 0, 0, .225);
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+.hr-sect::before {
+    margin-right: 3px;
+}
+
+.hr-sect::after {
+    margin-left: 3px;
+}
