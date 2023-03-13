@@ -57,7 +57,7 @@ export default class TaskManager {
         let tasks = this.storage.getKey('tasks');
         $('#tasks').html('');
         
-        if(Object.entries(tasks).length != 0){
+        if(tasks != null && Object.entries(tasks).length != 0){
             for(let taskObj of Object.entries(tasks)){
                 let task = new Task(taskObj[1]);
 
